@@ -1,8 +1,14 @@
 "use strict";
-let firstname = "Pream";
-let lastname = "Nilpan";
-function totalName() {
-    return firstname + lastname;
+// any
+// unknown
+function formatNumber(num) {
+    return num.toFixed(2);
 }
-totalName();
-console.log(`ชื่อ = ${firstname} + ${lastname.toUpperCase()}`);
+let amount = 50.1234;
+amount = "55.222";
+if (typeof amount === "number") {
+    console.log(formatNumber(amount));
+}
+else {
+    console.log("ค่าไม่ใช่ number");
+}
