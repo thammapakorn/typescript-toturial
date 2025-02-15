@@ -30,21 +30,31 @@
 // }
 // console.log(`ผลลัพธ์ ${result}`)
 
-// // ternary
+// ternary
 // result = (amount % 2 == 0)? "หารสองลงตัว" : "หารสองไม่ลงตัว"
 // console.log(result)
 
 //switch case
-let service:number = 1;
-let result:string;
+// let service:number = 1;
+// let result:string;
 
-switch(service){
-  case 1 : result = "สอบถามยอดเงินคงเหลือในบัญชี";
-  break;
-  case 2 : result = "ทำการฝากเงิน";
-  break;
-  case 3 : result = "ทำการถอนเงิน";
-  break;
-  default: result = "หมายเลขบริการไม่ถูกต้อง"
+// switch(service){
+//   case 1 : result = "สอบถามยอดเงินคงเหลือในบัญชี";
+//   break;
+//   case 2 : result = "ทำการฝากเงิน";
+//   break;
+//   case 3 : result = "ทำการถอนเงิน";
+//   break;
+//   default: result = "หมายเลขบริการไม่ถูกต้อง"
+// }
+// console.log(`ผลลัพธ์ ${result}`)
+
+// for loop
+// for(let count:number=1; count <= 10; count++){
+//   console.log(count);
+// }
+
+let users:string[]=["Pream","June","Mama"]
+for(let i=0;i<users.length;i++){
+  console.log(users[i]);
 }
-console.log(`ผลลัพธ์ ${result}`)
