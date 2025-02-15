@@ -20,17 +20,16 @@
 // console.log((<string>username).toUpperCase())
 
 // เงื่อนไข if else
-let amount:number = 50;
-let result:string;
+// let amount:number = 50;
+// let result:string;
 
-if(amount % 2 == 0){
- result="หารสองลงตัว เลขคู่" 
-}else{
-  result="หารสองไม่ลงตัว เลขคี่"
-}
-console.log(`ผลลัพธ์ ${result}`)
+// if(amount % 2 == 0){
+//  result="หารสองลงตัว เลขคู่" 
+// }else{
+//   result="หารสองไม่ลงตัว เลขคี่"
+// }
+// console.log(`ผลลัพธ์ ${result}`)
 
-// ternary
-result = (amount % 2 == 0)? "หารสองลงตัว" : "หารสองไม่ลงตัว"
-
-console.log(result)
+// // ternary
+// result = (amount % 2 == 0)? "หารสองลงตัว" : "หารสองไม่ลงตัว"
+// console.log(result)
