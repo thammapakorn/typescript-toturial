@@ -54,10 +54,10 @@
 //   console.log(count);
 // }
 
- let users:string[]=["Pream","June","Mama"]
- users.forEach((element)=>{
-  console.log(element)
- })
+//  let users:string[]=["Pream","June","Mama"]
+//  users.forEach((element)=>{
+//   console.log(element)
+//  })
 // for(let i=0;i<users.length;i++){
 //   console.log(users[i]);
 // }
