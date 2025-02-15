@@ -46,6 +46,9 @@
 //   console.log(count);
 // }
 let users = ["Pream", "June", "Mama"];
-for (let i = 0; i < users.length; i++) {
-    console.log(users[i]);
-}
+users.forEach((element) => {
+    console.log(element);
+});
+// for(let i=0;i<users.length;i++){
+//   console.log(users[i]);
+// }
