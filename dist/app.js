@@ -28,3 +28,19 @@
 // // ternary
 // result = (amount % 2 == 0)? "หารสองลงตัว" : "หารสองไม่ลงตัว"
 // console.log(result)
+//switch case
+let service = 1;
+let result;
+switch (service) {
+    case 1:
+        result = "สอบถามยอดเงินคงเหลือในบัญชี";
+        break;
+    case 2:
+        result = "ทำการฝากเงิน";
+        break;
+    case 3:
+        result = "ทำการถอนเงิน";
+        break;
+    default: result = "หมายเลขบริการไม่ถูกต้อง";
+}
+console.log(`ผลลัพธ์ ${result}`);
